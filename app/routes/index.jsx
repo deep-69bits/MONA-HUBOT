@@ -1,6 +1,13 @@
 import style from "~/styles/style.css";
+import AOS from "aos";
+import { useEffect } from "react";
+import "aos/dist/aos.css";
+
 
 export default function Index() {
+  useEffect(()=>{
+     AOS.init({duration: 2000});
+  },[])
   const A = ["T", "w", "o", " ", "f", "i", "l", "e", "s"];
   const B = [
     "T",
@@ -262,7 +269,11 @@ export default function Index() {
           ></img>
         </div>
       </div>
-      <div className="p3"></div>
+      <div className="p3">
+       <p>Use them  Flex’em  Fork them  Use them  Flex’em  Fork them  Use t</p>
+       <input type="slide" />
+       <p>Use them  Flex’em  Fork them  Use them  Flex’em  Fork them  Use t</p>
+      </div>
       <div className="p4">
         <div className="p4top">
           <div className="p4top1">
@@ -339,6 +350,19 @@ export default function Index() {
         </div>
       </div>
       <div className="p5">
+            <div className="animatebox">
+            <br />
+            3 Variables</div>
+            
+            <div className="animatebox" data-aos="zoom-in">granular control</div>
+            <div className="animatebox" data-aos="zoom-in">unlimited freedom</div>
+            <div className="animatebox" data-aos="zoom-in">Fast </div>
+            <div className="animatebox" data-aos="zoom-in">expressive</div>
+            <div className="animatebox" data-aos="zoom-in">and flexible</div>
+            <div className="p5last">
+            Learn about how to use variable fonts effectively
+            </div>
+            <img src="https://github.githubassets.com/images/modules/site/mona-sans/mona-ears.png" class="p5img" alt="Mona ears" loading="lazy" decoding="async" width="696" height="211"/>
       </div>
     </div>
   );
