@@ -1,13 +1,13 @@
-import style from "~/styles/style.css";
+import stylee from "~/styles/style.css";
 import AOS from "aos";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-
+import "~/styles/Mona-Sans.woff2"
 
 export default function Index() {
-  useEffect(()=>{
-     AOS.init({duration: 2000});
-  },[])
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
   const A = ["T", "w", "o", " ", "f", "i", "l", "e", "s"];
   const B = [
     "T",
@@ -134,6 +134,21 @@ export default function Index() {
     "[",
     "]",
   ];
+  const [bold, setBold] = useState(100);
+  const [space, setSpace] = useState(0);
+  const rangeslide = (e) => {
+    console.log(e.target.value);
+    setBold(e.target.value);
+  };
+  const rangeslide2 = (e) => {
+    console.log(e.target.value);
+    setSpace(e.target.value);
+  };
+  const styleObj = {
+    fontWeight: bold,
+    font: `${space}px`
+
+  };
   return (
     <div>
       <div className="p1">
@@ -223,6 +238,7 @@ export default function Index() {
             decoding="async"
           ></img>
 
+          
           <hr />
           <div className="hubotsans">
             <video
@@ -239,7 +255,7 @@ export default function Index() {
                   alt="Mona icon"
                   loading="lazy"
                   decoding="async"
-                  class="height-auto position-relative"
+                  class="mlogo2"
                   width="40"
                   height="40"
                 ></img>
@@ -270,9 +286,14 @@ export default function Index() {
         </div>
       </div>
       <div className="p3">
-       <p>Use them  Flex’em  Fork them  Use them  Flex’em  Fork them  Use t</p>
-       <input type="slide" />
-       <p>Use them  Flex’em  Fork them  Use them  Flex’em  Fork them  Use t</p>
+        <p>Use them Flex’em Fork them Use them Flex’em Fork them Use t</p>
+        <span id="shipit" style={styleObj}>
+          {" "}
+          Ship it{" "}
+        </span>
+        <input type="range" min="100" max="1000" onChange={rangeslide} />
+        <input type="range" min="0" max="10" onChange={rangeslide2} />
+        <p>Use them Flex’em Fork them Use them Flex’em Fork them Use t</p>
       </div>
       <div className="p4">
         <div className="p4top">
@@ -350,20 +371,223 @@ export default function Index() {
         </div>
       </div>
       <div className="p5">
-            <div className="animatebox">
-            <br />
-            3 Variables</div>
-            
-            <div className="animatebox" data-aos="zoom-in">granular control</div>
-            <div className="animatebox" data-aos="zoom-in">unlimited freedom</div>
-            <div className="animatebox" data-aos="zoom-in">Fast </div>
-            <div className="animatebox" data-aos="zoom-in">expressive</div>
-            <div className="animatebox" data-aos="zoom-in">and flexible</div>
-            <div className="p5last">
-            Learn about how to use variable fonts effectively
-            </div>
-            <img src="https://github.githubassets.com/images/modules/site/mona-sans/mona-ears.png" class="p5img" alt="Mona ears" loading="lazy" decoding="async" width="696" height="211"/>
+        <div className="animatebox">
+          <br />3 Variables
+        </div>
+
+        <div className="animatebox" data-aos="zoom-in">
+          granular control
+        </div>
+        <div className="animatebox" data-aos="zoom-in">
+          unlimited freedom
+        </div>
+        <div className="animatebox" data-aos="zoom-in">
+          Fast{" "}
+        </div>
+        <div className="animatebox" data-aos="zoom-in">
+          expressive
+        </div>
+        <div className="animatebox" data-aos="zoom-in">
+          and flexible
+        </div>
+        <div className="p5last">
+          Learn about how to use variable fonts effectively
+        </div>
+        <img
+          src="https://github.githubassets.com/images/modules/site/mona-sans/mona-ears.png"
+          class="p5img"
+          alt="Mona ears"
+          loading="lazy"
+          decoding="async"
+          width="696"
+          height="211"
+        />
       </div>
+      <footer className="foot">
+        <div class="color-bg-subtle">
+          <div class="ft">
+            <ul class="lastbox">
+              <li class="mr-3">© 2022 GitHub, Inc.</li>
+
+              <li class="mr-3">
+                <a
+                  href="https://docs.github.com/en/github/site-policy/github-terms-of-service"
+                  data-analytics-event='{"category":"Footer","action":"go to terms","label":"text:terms"}'
+                  class="Link--secondary"
+                >
+                  Terms
+                </a>
+              </li>
+
+              <li class="mr-3">
+                <a
+                  href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
+                  data-analytics-event='{"category":"Footer","action":"go to privacy","label":"text:privacy"}'
+                  class="Link--secondary"
+                >
+                  Privacy
+                </a>
+                (
+                <a
+                  href="https://github.com/github/site-policy/pull/582"
+                  class="Link--secondary"
+                >
+                  Updated 08/2022
+                </a>
+                )
+              </li>
+
+              <li class="mr-3">
+                <a
+                  class="Link--secondary"
+                  data-analytics-event='{"category":"Footer","action":"go to site map","label":"text:site map"}'
+                  href="/site-map"
+                >
+                  Site Map
+                </a>
+              </li>
+
+              <li>
+                <a
+                  class="Link--secondary"
+                  data-analytics-event='{"category":"Footer","action":"go to Git Guides","label":"text:What is Git?"}'
+                  href="/git-guides"
+                >
+                  What is Git?
+                </a>
+              </li>
+            </ul>
+            <ul class="icons">
+              <li class="mr-3">
+                <a
+                  href="https://twitter.com/github"
+                  data-analytics-event='{"category":"Footer","action":"go to Twitter","label":"text:twitter"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/twitter.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Twitter icon"
+                    width="22"
+                    height="18"
+                  />
+                  <span class="sr-only">GitHub on Twitter</span>
+                </a>
+              </li>
+              <li class="mr-3">
+                <a
+                  href="https://www.facebook.com/GitHub"
+                  data-analytics-event='{"category":"Footer","action":"go to Facebook","label":"text:facebook"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/facebook.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Facebook icon"
+                    width="18"
+                    height="18"
+                  />
+                  <span class="sr-only">GitHub on Facebook</span>
+                </a>
+              </li>
+              <li class="mr-3 flex-self-start">
+                <a
+                  href="https://www.linkedin.com/company/github"
+                  data-analytics-event='{"category":"Footer","action":"go to Linkedin","label":"text:linkedin"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/linkedin.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Linkedin icon"
+                    width="19"
+                    height="18"
+                  />
+                  <span class="sr-only">GitHub on LinkedIn</span>
+                </a>
+              </li>
+              <li class="mr-3">
+                <a
+                  href="https://www.youtube.com/github"
+                  data-analytics-event='{"category":"Footer","action":"go to YouTube","label":"text:youtube"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/youtube.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="YouTube icon"
+                    width="23"
+                    height="16"
+                  />
+                  <span class="sr-only">GitHub on YouTube</span>
+                </a>
+              </li>
+              <li class="mr-3">
+                <a
+                  href="https://www.twitch.tv/github"
+                  data-analytics-event='{"category":"Footer","action":"go to Twitch","label":"text:twitch"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/twitch.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="Twitch icon"
+                    width="18"
+                    height="18"
+                  />
+                  <span class="sr-only">GitHub on Twitch</span>
+                </a>
+              </li>
+              <li class="mr-3">
+                <a
+                  href="https://www.tiktok.com/@github"
+                  data-analytics-event='{"category":"Footer","action":"go to tiktok","label":"text:tiktok"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/tiktok.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="TikTok icon"
+                    width="18"
+                    height="18"
+                  />
+                  <span class="sr-only">GitHub on TikTok</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://github.com/github"
+                  data-analytics-event='{"category":"Footer","action":"go to github&apos;s org","label":"text:github"}'
+                  class="color-fg-subtle"
+                >
+                  <img
+                    src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg"
+                    class="d-block"
+                    loading="lazy"
+                    decoding="async"
+                    alt="GitHub mark"
+                    width="20"
+                    height="20"
+                  />
+                  <span class="sr-only">GitHub’s organization on GitHub</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
@@ -372,7 +596,7 @@ export function links() {
   return [
     {
       rel: "stylesheet",
-      href: style,
+      href: stylee,
     },
   ];
 }
