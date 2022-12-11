@@ -27,6 +27,9 @@ body {
     color: white;
     letter-spacing: 1.1px;
     text-align: center;
+    font-weight: 100;
+    font-size: 1.2rem;
+
     transform: translateY(100px);
 }
 
@@ -47,6 +50,270 @@ body {
     transform: translate(-660%, -800%);
     width: 50px;
     animation: infinite 6s updown;
+}
+@media only screen and (max-width: 720px) {
+    .img2 {
+    margin: auto;
+    display: block;
+    animation: none;
+    transform: translate(0%, -1000%);
+    width: 25px;
+    }
+    .img1{
+      margin: auto;
+      display: block;
+       height: 400px;
+       width: 400px;
+    transform: translate(0%, -50%);
+    }
+
+}
+.p2m p {
+    color: white;
+    width: 65%;
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+.p2m {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btns {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.btns button {
+    padding: 15px;
+    background-color: transparent;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 20px;
+    border: none;
+    border: solid;
+    border-color: transparent;
+    border-width: 1px;
+    cursor: pointer;
+
+}
+.alpha {
+
+    color: white;
+    margin: auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.alpha span {
+    font-size: 3.5rem;
+    border: solid;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    border-width: 0.5px;
+    border-color: rgb(96, 98, 100);
+}
+.video2 {
+    width: 30%;
+}
+.hubotsans {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.hstop div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.hubotsans div {
+    width: 65%;
+
+    color: white;
+    display: inline-block;
+}
+
+.hubotsans div span {
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1300px) {
+    .p2m p{
+        font-size: 3rem;
+        
+    }
+    .alpha span{
+        font-size: 3rem;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    .p2m p{
+        font-size: 2.2rem;
+    }
+    .alpha span{
+        font-size: 2.5rem;
+    }
+    
+}
+.hstop div img {
+    float: right;
+
+}
+
+.hstop p {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.cutevide{
+    height: 360;
+    width: 360;
+    display: block;
+}
+.p4imges {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.p4imges img {
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.poster1 {
+    
+    transform: translateY(120px);
+}
+
+.poster4 {
+    
+    transform: translateY(120px);
+}
+
+.poster3 {
+
+    transform: translateY(70px);
+}
+
+.poster6 {
+  
+    transform: translateY(70px);
+}
+.p4top {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.p4top1 {
+    margin-top: 5%;
+    width: 60%;
+    font-size: 6rem;
+}
+.p4top2 {
+
+    justify-content: center;
+    width: 30%;
+
+}
+
+.p4top2 p {
+    float: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.p4 {
+    color: white;
+    width: 85%;
+   
+    margin: auto;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+@media only screen and (max-width: 800px) {
+    .p4top{
+        display: block;
+    }
+    .p4top1{
+        width: 100%;
+    }
+    .p4top2{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+   .p4imges{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+   }
+    
+    .cutevideo{
+        display: block;
+        margin: auto;
+    }
+    .p2m{
+        width: 100%;
+        display: block;
+    }
+    .p2m p{
+        width: 100%;
+        transform: translateY(300px);
+    }
+    .imgdiv{
+        transform: translateY(-300px);
+        display: block;
+    }
+    .btns button{
+        width: 100%;
+    }
+    .alpha span{
+        font-size: 2rem;
+    }
+    .video2 {
+        width: 100%;
+    }
+    .hubotsans {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+        width: 100%;
+        
+    }
+    .hubotsans div{
+        width: 100%;
+    }
+    .hstop{
+        margin: auto;
+        display: block;
+        width: 100%;
+        
+    }
+    .hstop div {
+        display: block;
+        width: 100%;
+        
+        
+    }
+    .hstop p{
+        width: 100%;
+    }
+    .btns{
+        width: 100%;
+    }
+    
 }
 
 @keyframes updown {
@@ -73,9 +340,7 @@ body {
     display: block;
     color: white;
     font-size: 10rem;
-    font-weight: bold;
-     font-family: 'ExtraBold';
-
+    font-weight: bold;    
 }
 
 .and {
@@ -148,44 +413,15 @@ body {
     font-weight: bold;
 }
 
-.p2m p {
-    color: white;
-    width: 65%;
-    font-size: 4rem;
-    font-weight: 900;
 
-}
 
-.p2m {
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
 
 .sketch1 {
     width: 100%;
 
 }
 
-.btns {
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
 
-.btns button {
-    padding: 15px;
-    background-color: transparent;
-    color: white;
-    font-size: 1.2rem;
-    font-weight: 800;
-    margin: 20px;
-    border: none;
-    border: solid;
-    border-color: transparent;
-    border-width: 1px;
-    cursor: pointer;
-
-}
 
 .btns button:hover {
 
@@ -207,71 +443,21 @@ body {
     background-image: linear-gradient(180deg,rgb(1, 1, 18) , black);
 }
 
-.alpha {
 
-    color: white;
-    margin: auto;
-    width: 95%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.alpha span {
-    font-size: 3.5rem;
-    border: solid;
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 5px;
-
-    border-width: 0.5px;
-    border-color: rgb(96, 98, 100);
-}
 
 .alpha span:hover {
     font-weight: bold;
 }
 
-.video2 {
-    width: 30%;
-}
 
-.hubotsans {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    display: flex;
-    justify-content: space-between;
 
-}
 
-.hubotsans div {
-    width: 65%;
 
-    color: white;
-    display: inline-block;
-}
 
-.hubotsans div span {
-    font-size: 4.5rem;
-    font-weight: bold;
-}
 
-.hstop div {
-    width: 100%;
-   
-    display: flex;
-    justify-content: space-between;
-}
 
-.hstop div img {
-    float: right;
 
-}
 
-.hstop p {
-    width: 80%;
-    font-size: 3rem;
-    font-weight: 400;
-}
 
 .btns .btn1 {
     border-style: solid;
@@ -289,67 +475,15 @@ body {
     font-size: 4.5rem;
 }
 
-.p4 {
-    color: white;
-    width: 85%;
-   
-    margin: auto;
-    font-weight: bold;
-    font-stretch: extra-expanded;
-}
 
-.p4top {
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
 
-}
 
-.p4top1 {
-    margin-top: 5%;
-    width: 60%;
-    font-size: 6rem;
-}
 
-.p4top2 {
 
-    justify-content: center;
-    width: 30%;
 
-}
 
-.p4top2 p {
-    float: left;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
 
-.p4imges {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
 
-.p4imges img {
-    margin-top: 40px;
-}
-
-.poster1 {
-
-    transform: translateY(120px);
-}
-
-.poster4 {
-    transform: translateY(120px);
-}
-
-.poster3 {
-    transform: translateY(70px);
-}
-
-.poster6 {
-    transform: translateY(70px);
-}
 
 .p5 {
 

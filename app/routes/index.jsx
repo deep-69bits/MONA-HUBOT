@@ -5,6 +5,8 @@ import "aos/dist/aos.css";
 import "~/styles/Mona-Sans.woff2"
 
 export default function Index() {
+  
+  
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -210,15 +212,18 @@ export default function Index() {
               A strong and versatile typeface, designed with Degarism and
               inspired by industrial-era grotesques. Mona Sans works well across
               product, web, and print.
-            </p>
+              </p>
+            <div className="imgdiv">
             <video
-              loop="loop"
-              muted="muted"
-              width="360"
-              height="360"
-              autoPlay
-              src="https://github.githubassets.com/images/modules/site/discussions/animations/hearts.webm"
+            loop="loop"
+            muted="muted"
+            height="100%"
+            width="70% "
+            autoPlay
+            className="cutevideo"
+            src="https://github.githubassets.com/images/modules/site/discussions/animations/hearts.webm"
             ></video>
+            </div>
           </div>
           <div className="btns">
             <button>Download font</button>
@@ -297,9 +302,11 @@ export default function Index() {
       </div>
       <div className="p4">
         <div className="p4top">
+
           <div className="p4top1">
             Find the right width, weight, & slant that fits you.
           </div>
+          
           <div className="p4top2">
             <video
               width="360"
@@ -318,55 +325,57 @@ export default function Index() {
               different looks, and endless of possibilities.
             </p>
           </div>
+
         </div>
+
         <div className="p4imges">
           <img
             class="poster1"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-1.jpg"
             alt="Poster 1"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
           <img
             class="poster2"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-2.jpg"
             alt="Poster 2"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
           <img
             class="poster3"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-3.jpg"
             alt="Poster 3"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
           <img
             class="poster4"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-4.jpg"
             alt="Poster 4"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
           <img
             class="poster5"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-5.jpg"
             alt="Poster 5"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
           <img
             class="poster6"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-6.webp"
             alt="Poster 6"
             loading="lazy"
-            width="480"
-            height="720"
+            width="100%"
+            height="100%"
           />
         </div>
       </div>
