@@ -145,176 +145,54 @@ body {
     font-size: 4.5rem;
     font-weight: bold;
 }
-@media only screen and (max-width: 1300px) {
-    .p2m p{
-        font-size: 3rem;
-        
-    }
-    .alpha span{
-        font-size: 3rem;
-    }
-    
-}
-@media only screen and (max-width: 1100px) {
-    .p2m p{
-        font-size: 2.2rem;
-    }
-    .alpha span{
-        font-size: 2.5rem;
-    }
-    
-}
-.hstop div img {
-    float: right;
-
-}
-
-.hstop p {
-    width: 80%;
-    font-size: 3rem;
-    font-weight: 400;
-}
-.cutevide{
-    height: 360;
-    width: 360;
-    display: block;
-}
-.p4imges {
-    margin-top: 200px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.p4imges img {
-    margin: 10px;
-    margin-top: 40px;
-}
-
-.poster1 {
-    
-    transform: translateY(120px);
-}
-
-.poster4 {
-    
-    transform: translateY(120px);
-}
-
-.poster3 {
-
-    transform: translateY(70px);
-}
-
-.poster6 {
-  
-    transform: translateY(70px);
-}
-.p4top {
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
-
-}
-.p4top1 {
-    margin-top: 5%;
-    width: 60%;
-    font-size: 6rem;
-}
-.p4top2 {
-
-    justify-content: center;
-    width: 30%;
-
-}
-
-.p4top2 p {
-    float: left;
-    font-size: 1.3rem;
-    font-weight: 600;
-}
-.p4 {
+.p6{
+    margin-top: 300px;
     color: white;
-    width: 85%;
+    align-items: center;
+    text-align: center;
    
+}
+.license{
+    margin-top: 5%;
+    font-size: 1.6rem;
+
+}
+.p6 div{
+    
+    margin: auto;
+    
+    
+}
+
+.svgdiv{
+    width: 100%;
+
+}
+.open{
+    font-size: 6rem;
+    font-weight: bold;
+
+}
+.free{
+    font-size: 6rem;
+    font-weight: bold;
+    color: rgb(156, 158, 158);
+}
+.last{
+    width: 30%;
     margin: auto;
     font-weight: bold;
-    font-stretch: extra-expanded;
+    transform: translateY(-300px);
+    font-size: 3.5rem;
 }
-@media only screen and (max-width: 800px) {
-    .p4top{
-        display: block;
-    }
-    .p4top1{
-        width: 100%;
-    }
-    .p4top2{
-        text-align: center;
-        justify-content: center;
-        width: 100%;
-    }
+.Mona {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 10rem;
+    font-weight: bold;    
+}
 
-   .p4imges{
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-   }
-    
-    .cutevideo{
-        display: block;
-        margin: auto;
-    }
-    .p2m{
-        width: 100%;
-        display: block;
-    }
-    .p2m p{
-        width: 100%;
-        transform: translateY(300px);
-    }
-    .imgdiv{
-        transform: translateY(-300px);
-        display: block;
-    }
-    .btns button{
-        width: 100%;
-    }
-    .alpha span{
-        font-size: 2rem;
-    }
-    .video2 {
-        width: 100%;
-    }
-    .hubotsans {
-        margin-top: 100px;
-        margin-bottom: 100px;
-        display: block;
-        width: 100%;
-        
-    }
-    .hubotsans div{
-        width: 100%;
-    }
-    .hstop{
-        margin: auto;
-        display: block;
-        width: 100%;
-        
-    }
-    .hstop div {
-        display: block;
-        width: 100%;
-        
-        
-    }
-    .hstop p{
-        width: 100%;
-    }
-    .btns{
-        width: 100%;
-    }
-    
-}
 
 @keyframes updown {
     0% {
@@ -335,47 +213,13 @@ body {
     transform: translateY(100px);
 }
 
-.Mona {
-    text-align: center;
-    display: block;
-    color: white;
-    font-size: 10rem;
-    font-weight: bold;    
-}
 
-.and {
-    text-align: center;
-    display: block;
-    color: #8b949e;
-    font-size: 10rem;
-    font-weight: bold;
-    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
-    font-weight: 800 !important;
-    transform: translateY(-110px);
-    z-index: 1;
 
-}
 
-.hubot {
-    text-align: center;
-    display: block;
-    color: white;
-    font-size: 10rem;
-    font-weight: bold;
-    transform: translateY(-230px);
-    z-index: -1;
-}
 
-.sans {
-    text-align: center;
-    display: block;
-    color: white;
-    font-size: 10rem;
-    font-weight: bold;
-    transform: translateY(-300px);
-    z-index: -1;
-    font-style: italic;
-}
+
+
+
 
 .p2 {
     background-color: rgb(0, 0, 0);
@@ -491,20 +335,9 @@ body {
     background-image: linear-gradient(180deg, #aa60f9, #3c1e5d);
 }
 
-.animatebox {
-    height: 100vh;
 
-    color: white;
-    text-align: center;
-    font-size: 10rem;
-    font-weight: 700;
-}
 
-.p5img {
-    display: block;
-    margin: auto;
-    bottom: 0;
-}
+
 
 .p5last {
     color: white;
@@ -593,3 +426,263 @@ body {
     font-stretch: 75% 125%;
   }
   
+  @media only screen and (max-width: 1300px) {
+    .p2m p{
+        font-size: 3rem;
+        
+    }
+    .alpha span{
+        font-size: 3rem;
+    }
+    
+}
+@media only screen and (max-width: 1100px) {
+    .p2m p{
+        font-size: 2.2rem;
+    }
+    .alpha span{
+        font-size: 2.5rem;
+    }
+    
+}
+.hstop div img {
+    float: right;
+
+}
+
+.hstop p {
+    width: 80%;
+    font-size: 3rem;
+    font-weight: 400;
+}
+.cutevide{
+    height: 360;
+    width: 360;
+    display: block;
+}
+.p4imges {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.p4imges img {
+    margin: 10px;
+    margin-top: 40px;
+}
+
+.poster1 {
+    
+    transform: translateY(120px);
+}
+
+.poster4 {
+    
+    transform: translateY(120px);
+}
+
+.poster3 {
+
+    transform: translateY(70px);
+}
+
+.poster6 {
+  
+    transform: translateY(70px);
+}
+.p4top {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.p4top1 {
+    margin-top: 5%;
+    width: 60%;
+    font-size: 6rem;
+}
+.p4top2 {
+
+    justify-content: center;
+    width: 30%;
+
+}
+
+.p4top2 p {
+    float: left;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.p4 {
+    color: white;
+    width: 85%;
+   
+    margin: auto;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+}
+.animatebox {
+    height: 100vh;
+
+    color: white;
+    text-align: center;
+    font-size: 10rem;
+    font-weight: 700;
+}
+.p5img {
+    display: block;
+    margin: auto;
+    bottom: 0;
+    width: 100%;
+}
+.hubot {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 10rem;
+    font-weight: bold;
+    transform: translateY(-230px);
+    z-index: -1;
+}
+.and {
+    text-align: center;
+    display: block;
+    color: #8b949e;
+    font-size: 10rem;
+    font-weight: bold;
+    font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+    font-weight: 800 !important;
+    transform: translateY(-110px);
+    z-index: 1;
+
+}
+.sans {
+    text-align: center;
+    display: block;
+    color: white;
+    font-size: 10rem;
+    font-weight: bold;
+    transform: translateY(-300px);
+    z-index: -1;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 800px) {
+    .last{
+        width: 30%;
+        margin: auto;
+        font-weight: bold;
+        transform: translateY(-300px);
+        font-size: 1rem;
+    }
+    .p5img {
+        display: block;
+        margin: auto;
+        bottom: 0;
+    }
+    .p4top{
+        display: block;
+    }
+    .p4top1{
+        width: 100%;
+    }
+    .p4top2{
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+    }
+    .animatebox{
+        font-size: 4rem;
+    }
+   .p4imges{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+   }
+    
+    .cutevideo{
+        display: block;
+        margin: auto;
+    }
+    .p2m{
+        width: 100%;
+        display: block;
+    }
+    .p2m p{
+        width: 100%;
+        transform: translateY(300px);
+    }
+    .imgdiv{
+        transform: translateY(-300px);
+        display: block;
+    }
+    .btns button{
+        width: 100%;
+    }
+    .alpha span{
+        font-size: 2rem;
+    }
+    .video2 {
+        width: 100%;
+    }
+    .hubotsans {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        display: block;
+        width: 100%;
+        
+    }
+    .hubotsans div{
+        width: 100%;
+    }
+    .hstop{
+        margin: auto;
+        display: block;
+        width: 100%;
+        
+    }
+    .hstop div {
+        display: block;
+        width: 100%;
+        
+        
+    }
+    .hstop p{
+        width: 100%;
+    }
+    .btns{
+        width: 100%;
+    }
+    .p2h span{
+        font-size: 3rem;
+      }
+    
+}
+@media only screen and (max-width: 500px){
+    .imgdiv{
+        transform: translateY(-100px);
+    }
+    .p2m p{
+        font-size: 1rem;
+    }
+  .Mona{
+    font-size: 6rem;
+  }
+  .hubot{
+    transform: translateY(-160px);
+    font-size: 6rem;
+  }
+  .and{
+    transform: translateY(-80px);
+    font-size: 6rem;
+  }
+  .sans{
+    font-size: 6rem;
+    transform: translateY(-200px);
+
+  }
+  .p2h span{
+    font-size: 3rem;
+  }
+}
