@@ -161,7 +161,7 @@ export default function Index() {
     font: `${space}px`,
   };
   return (
-    <div>
+    <div className="project">
       <div className="p1">
         <p id="up">TWO VARIABLE, OPEN SOURCE FONTS from GITHUB</p>
         <div className="textup">
@@ -305,13 +305,7 @@ export default function Index() {
           </div>
 
           <div className="p4top2">
-            <video
-              width="360"
-              height="360"
-              loop
-              autoPlay
-              src="https://github.githubassets.com/images/modules/site/discussions/animations/mind-blown.webm"
-            ></video>
+           
             <p>
               Variable fonts give you granular control of how fonts are
               displayed by packaging a set of variable axes into one single font

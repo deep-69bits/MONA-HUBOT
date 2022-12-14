@@ -659,7 +659,22 @@ body {
     }
     .p2h span{
         font-size: 3rem;
-      }
+    }
+    .svgdiv{
+        display: block;
+    }
+    .icons{
+        display: block;
+    }
+    .open{
+        font-size: 5rem;
+    }
+    .free{
+        font-size: 5rem;
+    }
+    .project{
+        overflow-x: hidden;
+    }
     
 }
 @media only screen and (max-width: 500px){
@@ -709,4 +724,28 @@ body {
     font-size: 2rem;
     font-weight: 500;
   }
+  .onhoverbold {
+    margin-bottom: 20px;
+   }
+}
+@media only screen and (max-width: 400px){
+   .p2h span{
+    font-size: 2.6rem;
+   }
+   #para{
+    font-size: 1.6rem;
+    transform: translateY(200px);
+   }
+   .mlogo{
+    transform: translateY(0);
+   }
+   .imgdiv{
+    transform: translateY(-220px);
+   }
+   .onhoverbold span{
+    font-size: 1.6rem;
+   }
+   .onhoverbold {
+    margin-bottom: 20px;
+   }
 }
