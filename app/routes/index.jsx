@@ -133,6 +133,18 @@ export default function Index() {
     ")",
     "[",
     "]",
+    "/",
+    "=",
+    "_",
+    "{",
+    "}",
+    "'",
+    "@",
+    "-",
+    ">",
+    "<",
+    ".",
+    ";"
   ];
   const [bold, setBold] = useState(100);
   const [space, setSpace] = useState(0);
@@ -205,7 +217,7 @@ export default function Index() {
           </div>
           <hr />
           <div className="p2m">
-            <p>
+            <p id="para">
               A strong and versatile typeface, designed with Degarism and
               inspired by industrial-era grotesques. Mona Sans works well across
               product, web, and print.

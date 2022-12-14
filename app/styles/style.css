@@ -568,6 +568,9 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+    .lastbox{
+        display: block;
+    }
     .last{
         width: 30%;
         margin: auto;
@@ -660,12 +663,8 @@ body {
     
 }
 @media only screen and (max-width: 500px){
-    .imgdiv{
-        transform: translateY(-100px);
-    }
-    .p2m p{
-        font-size: 1rem;
-    }
+    
+  
   .Mona{
     font-size: 6rem;
   }
@@ -683,6 +682,15 @@ body {
 
   }
   .p2h span{
+    font-size: 3rem;
+  }
+  .onhoverbold{
+    font-size: 2rem;
+  }
+  .p2m p{
+    font-size: 2rem;
+  }
+  .hstop  div span{
     font-size: 3rem;
   }
 }
