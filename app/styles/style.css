@@ -675,11 +675,22 @@ body {
     .project{
         overflow-x: hidden;
     }
+    .hstop{
+        margin-top: 40px;
+    }
+    .p2{
+        transform: translateY(0);
+    }
+    .animatebox{
+        transform: translateY(80px);
+    }
     
 }
 @media only screen and (max-width: 500px){
     
-  
+  .p5last{
+    font-size: 2rem;
+  }
   .Mona{
     font-size: 6rem;
   }
