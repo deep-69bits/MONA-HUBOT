@@ -2,7 +2,7 @@ import stylee from "~/styles/style.css";
 import AOS from "aos";
 import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import Fade from 'react-reveal/Fade';
+
 
 
 export default function Index() {
