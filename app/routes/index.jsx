@@ -2,7 +2,8 @@ import stylee from "~/styles/style.css";
 import AOS from "aos";
 import { useEffect, useState } from "react";
 import "aos/dist/aos.css";
-import "~/styles/Mona-Sans.woff2";
+import Fade from 'react-reveal/Fade';
+
 
 export default function Index() {
   useEffect(() => {
@@ -330,56 +331,57 @@ export default function Index() {
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-1.jpg"
             alt="Poster 1"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
           <img
             class="poster2"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-2.jpg"
             alt="Poster 2"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
           <img
             class="poster3"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-3.jpg"
             alt="Poster 3"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
           <img
             class="poster4"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-4.jpg"
             alt="Poster 4"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
           <img
             class="poster5"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-5.jpg"
             alt="Poster 5"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
           <img
             class="poster6"
             src="https://github.githubassets.com/images/modules/site/mona-sans/poster-6.webp"
             alt="Poster 6"
             loading="lazy"
-            width="100%"
-            height="100%"
+            width="95%"
+            height="95%"
           />
         </div>
       </div>
       <div className="p5">
+      
         <div className="animatebox">
           <br />3 Variables
         </div>
-
+        
         <div className="animatebox" data-aos="zoom-in">
           granular control
         </div>
@@ -893,191 +895,74 @@ export default function Index() {
           </div>
         </div>
       </div>
-      <footer className="foot">
-        <div class="color-bg-subtle">
-          <div class="ft">
-            <ul class="lastbox">
-              <li class="mr-3">© 2022 GitHub, Inc.</li>
+      <div class="footer">
+  <div class="contain">
+  <div class="col">
+    <h1>Company</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Products</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Accounts</h1>
+    <ul>
+      <li>About</li>
+      <li>Mission</li>
+      <li>Services</li>
+      <li>Social</li>
+      <li>Get in touch</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Resources</h1>
+    <ul>
+      <li>Webmail</li>
+      <li>Redeem code</li>
+      <li>WHOIS lookup</li>
+      <li>Site map</li>
+      <li>Web templates</li>
+      <li>Email templates</li>
+    </ul>
+  </div>
+  <div class="col">
+    <h1>Support</h1>
+    <ul>
+      <li>Contact us</li>
+      <li>Web chat</li>
+      <li>Open ticket</li>
+    </ul>
+  </div>
+  <div class="col social">
+    <h1>Social</h1>
+    <ul>
+    
+    </ul>
+  </div>
+<div class="clearfix"></div>
+</div>
+</div>
+<section class="ft-legal">
+<ul class="ft-legal-list">
+  <li><a href="#">Terms &amp; Conditions</a></li>
+  <li><a href="#">Privacy Policy</a></li>
+  <li>&copy; 2022</li>
+</ul>
+</section>
 
-              <li class="mr-3">
-                <a
-                  href="https://docs.github.com/en/github/site-policy/github-terms-of-service"
-                  data-analytics-event='{"category":"Footer","action":"go to terms","label":"text:terms"}'
-                  class="Link--secondary"
-                >
-                  Terms
-                </a>
-              </li>
-
-              <li class="mr-3">
-                <a
-                  href="https://docs.github.com/en/github/site-policy/github-privacy-statement"
-                  data-analytics-event='{"category":"Footer","action":"go to privacy","label":"text:privacy"}'
-                  class="Link--secondary"
-                >
-                  Privacy
-                </a>
-                (
-                <a
-                  href="https://github.com/github/site-policy/pull/582"
-                  class="Link--secondary"
-                >
-                  Updated 08/2022
-                </a>
-                )
-              </li>
-
-              <li class="mr-3">
-                <a
-                  class="Link--secondary"
-                  data-analytics-event='{"category":"Footer","action":"go to site map","label":"text:site map"}'
-                  href="/site-map"
-                >
-                  Site Map
-                </a>
-              </li>
-
-              <li>
-                <a
-                  class="Link--secondary"
-                  data-analytics-event='{"category":"Footer","action":"go to Git Guides","label":"text:What is Git?"}'
-                  href="/git-guides"
-                >
-                  What is Git?
-                </a>
-              </li>
-            </ul>
-            <ul class="icons">
-              <li class="mr-3">
-                <a
-                  href="https://twitter.com/github"
-                  data-analytics-event='{"category":"Footer","action":"go to Twitter","label":"text:twitter"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/twitter.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="Twitter icon"
-                    width="22"
-                    height="18"
-                  />
-                  <span class="sr-only">GitHub on Twitter</span>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a
-                  href="https://www.facebook.com/GitHub"
-                  data-analytics-event='{"category":"Footer","action":"go to Facebook","label":"text:facebook"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/facebook.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="Facebook icon"
-                    width="18"
-                    height="18"
-                  />
-                  <span class="sr-only">GitHub on Facebook</span>
-                </a>
-              </li>
-              <li class="mr-3 flex-self-start">
-                <a
-                  href="https://www.linkedin.com/company/github"
-                  data-analytics-event='{"category":"Footer","action":"go to Linkedin","label":"text:linkedin"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/linkedin.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="Linkedin icon"
-                    width="19"
-                    height="18"
-                  />
-                  <span class="sr-only">GitHub on LinkedIn</span>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a
-                  href="https://www.youtube.com/github"
-                  data-analytics-event='{"category":"Footer","action":"go to YouTube","label":"text:youtube"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/youtube.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="YouTube icon"
-                    width="23"
-                    height="16"
-                  />
-                  <span class="sr-only">GitHub on YouTube</span>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a
-                  href="https://www.twitch.tv/github"
-                  data-analytics-event='{"category":"Footer","action":"go to Twitch","label":"text:twitch"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/twitch.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="Twitch icon"
-                    width="18"
-                    height="18"
-                  />
-                  <span class="sr-only">GitHub on Twitch</span>
-                </a>
-              </li>
-              <li class="mr-3">
-                <a
-                  href="https://www.tiktok.com/@github"
-                  data-analytics-event='{"category":"Footer","action":"go to tiktok","label":"text:tiktok"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/tiktok.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="TikTok icon"
-                    width="18"
-                    height="18"
-                  />
-                  <span class="sr-only">GitHub on TikTok</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/github"
-                  data-analytics-event='{"category":"Footer","action":"go to github&apos;s org","label":"text:github"}'
-                  class="color-fg-subtle"
-                >
-                  <img
-                    src="https://github.githubassets.com/images/modules/site/icons/footer/github-mark.svg"
-                    class="d-block"
-                    loading="lazy"
-                    decoding="async"
-                    alt="GitHub mark"
-                    width="20"
-                    height="20"
-                  />
-                  <span class="sr-only">GitHub’s organization on GitHub</span>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
