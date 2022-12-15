@@ -17,9 +17,32 @@ body {
 
 }
 
+@font-face {
+    src: url('../font/Mona-Sans-BlackNarrow.woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-family: "monablack";
+  }
+  @font-face {
+    src: url('../font/Mona-Sans-SemiBold.woff2');
+    font-style: normal;
+    font-family: "semibold";
+  }
+  @font-face {
+    src: url('../font/Mona-Sans-LightNarrow.woff2');
+    font-style: normal;
+    font-family: "lightnarrow";
+  }
+  @font-face {
+    src: url('../font/Mona-Sans-Bold.woff2');
+    font-style: normal;
+    font-family: "bold";
+  }
+
+
 .p1 {
     background-color: rgb(4, 4, 92);
-    background-image: linear-gradient(to right, black, rgb(4, 4, 92), black);
+    background-image: linear-gradient(to right, rgb(1, 2, 21), rgb(5, 5, 115), rgb(1, 2, 21));
 
 }
 
@@ -56,7 +79,7 @@ body {
     margin: auto;
     display: block;
     animation: none;
-    transform: translate(0%, -1000%);
+    transform: translate(-10px, -1000%);
     width: 25px;
     }
     .img1{
@@ -196,15 +219,15 @@ body {
 
 @keyframes updown {
     0% {
-        transform: translate(-660%, -800%);
+        transform: translate(-720%, -860%);
     }
 
     50% {
-        transform: translate(-660%, -850%);
+        transform: translate(-720%, -900%);
     }
 
     100% {
-        transform: translate(-660%, -800%);
+        transform: translate(-720%, -860%);
     }
 }
 
@@ -408,6 +431,28 @@ body {
         font-stretch: 75% 125%;
       
 }
+.Mona {
+    font-family: monablack;
+    font-size: 30rem;
+    transform: translateY(100px);
+}
+.hubot {
+    font-family: monablack;
+    font-size: 30rem;
+    transform: translateY(-380px);
+}
+.sans {
+    font-family: monablack;
+    font-size: 30rem;
+  transform: translateY(-500px);
+}
+.and{
+    font-family: monablack;
+    font-size: 20rem;
+    transform: translateY(-200px);
+    color: #a7bacd;
+
+}
 @font-face {
     font-family: 'Mona Sans';
     src:
@@ -451,9 +496,10 @@ body {
 }
 
 .hstop p {
+    font-family: lightnarrow;
     width: 80%;
     font-size: 3rem;
-    font-weight: 400;
+   
 }
 .cutevide{
     height: 360;
@@ -527,7 +573,7 @@ body {
     color: white;
     text-align: center;
     font-size: 10rem;
-    font-weight: 700;
+    font-family: bold;
 }
 .p5img {
     display: block;
@@ -539,20 +585,20 @@ body {
     text-align: center;
     display: block;
     color: white;
-    font-size: 10rem;
+    font-size: 30rem;
     font-weight: bold;
-    transform: translateY(-230px);
+    transform: translateY(-380px);
     z-index: -1;
 }
 .and {
     text-align: center;
     display: block;
     color: #8b949e;
-    font-size: 10rem;
+    font-size: 20rem;
     font-weight: bold;
     font-family: "Mona Sans", "Mona Sans Header Fallback", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
     font-weight: 800 !important;
-    transform: translateY(-110px);
+    transform: translateY(-200px);
     z-index: 1;
 
 }
@@ -560,14 +606,40 @@ body {
     text-align: center;
     display: block;
     color: white;
-    font-size: 10rem;
+    font-size: 30rem;
     font-weight: bold;
-    transform: translateY(-300px);
+    transform: translateY(-490px);
     z-index: -1;
-    font-style: italic;
+    
+}
+.p1img{
+    transform: translateY(-400px);
 }
 
+.p2m p{
+    font-family: semibold;
+}
 @media only screen and (max-width: 800px) {
+    .Mona{
+        font-size: 13rem;
+    }
+    .hubot{
+        font-size: 13rem;
+        transform: translateY(-130px);
+    }
+    .and{
+        font-size: 10rem;
+        transform: translateY(-50px);
+
+    }
+    .sans{
+        font-size: 13rem;
+        transform: translateY(-200px);
+
+    }
+    .p1img{
+        transform: translateY(-90px);
+    }
     .lastbox{
         display: block;
     }
@@ -595,6 +667,8 @@ body {
         width: 100%;
     }
     .animatebox{
+    font-family: bold;
+
         font-size: 4rem;
     }
    .p4imges{
@@ -652,6 +726,7 @@ body {
         
     }
     .hstop p{
+        font-family: lightnarrow;
         width: 100%;
     }
     .btns{
@@ -682,6 +757,7 @@ body {
         transform: translateY(0);
     }
     .animatebox{
+    font-family: bold;
         transform: translateY(80px);
     }
     
@@ -692,20 +768,23 @@ body {
     font-size: 2rem;
   }
   .Mona{
-    font-size: 6rem;
+    font-size: 10rem;
   }
   .hubot{
-    transform: translateY(-160px);
-    font-size: 6rem;
+    transform: translateY(-110px);
+    font-size: 10rem;
   }
   .and{
-    transform: translateY(-80px);
-    font-size: 6rem;
+    transform: translateY(-40px);
+    font-size: 10rem;
   }
   .sans{
-    font-size: 6rem;
-    transform: translateY(-200px);
+    font-size: 10rem;
+    transform: translateY(-150px);
 
+  }
+  .p1img{
+    transform: translateY(0px);
   }
   .p2h span{
     font-size: 3rem;
@@ -729,6 +808,8 @@ body {
     font-size: 3rem
   }
   .hstop p{
+    
+    font-family: lightnarrow;
     font-size: 2rem;
   }
   .p2m p{
@@ -744,7 +825,8 @@ body {
     font-size: 2.6rem;
    }
    #para{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: semibold;
     transform: translateY(200px);
    }
    .mlogo{

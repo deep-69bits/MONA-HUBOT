@@ -165,7 +165,7 @@ export default function Index() {
       <div className="p1">
         <p id="up">TWO VARIABLE, OPEN SOURCE FONTS from GITHUB</p>
         <div className="textup">
-          <span class="Mona">MONA</span>
+          <span class="Mona">MONA </span>
           <span className="d-block position-relative z-2 lh-condensed-ultra text-extrabold">
             <span className="and">&amp;</span>
           </span>
